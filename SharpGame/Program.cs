@@ -10,7 +10,7 @@ namespace SharpGame
     {
         static void Main(string[] args)
         {
-            new pingpong.PingPongCore().Start();
+            new pingpong.PingPongCore().Start();  
         }
     }
 }
