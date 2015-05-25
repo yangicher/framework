@@ -70,6 +70,7 @@
     <Compile Include="framework\Graphics\Graphics.cs" />
     <Compile Include="framework\Graphics\GraphicsDrawer.cs" />
     <Compile Include="framework\Math\Vector3.cs" />
+    <Compile Include="framework\Physics\Physics.cs" />
     <Compile Include="framework\ResourceManagement\Loaders\ILoader.cs" />
     <Compile Include="framework\ResourceManagement\Loaders\SceneLoader.cs" />
     <Compile Include="framework\ResourceManagement\Resources.cs" />
@@ -111,9 +112,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="framework\Physics\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

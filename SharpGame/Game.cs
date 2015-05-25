@@ -10,6 +10,7 @@ namespace SharpGame
 
         #region Subsystems
         public GraphicsDrawer Graphics { get; private set; }
+        public Physics Physic { get; private set; }
         public Resources Resources { get; private set; }
         #endregion
 
